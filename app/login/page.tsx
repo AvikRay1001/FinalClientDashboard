@@ -75,34 +75,30 @@ export default function LoginPage() {
       {/* Left Image Panel */}
       <div
         style={{
-          flex: 1,
+          flex: '1.6',
           backgroundColor: '#f3f4f6',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center'
+          alignItems: 'center',
+          overflow: 'hidden'
         }}
       >
-        <div
+        <img
+          src="/DashImage.jpeg"
+          alt="Haven Influence Dashboard"
           style={{
-            width: '250px',
-            height: '250px',
-            backgroundColor: '#d1d5db',
-            borderRadius: '8px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#9ca3af',
-            fontSize: '48px'
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: '70% center'
           }}
-        >
-          🖼️
-        </div>
+        />
       </div>
 
       {/* Right Login Panel */}
       <div
         style={{
-          flex: 1,
+          flex: '1',
           backgroundColor: '#ffffff',
           display: 'flex',
           justifyContent: 'center',
